@@ -38,10 +38,14 @@ const Experience = () => {
 
   return (
     <div>
-      <h2 className="head-text">Experience</h2>
       <div>
-        <Chrono items={data} mode="VERTICAL_ALTERNATING" />
+        <h2 className="head-text">Experience</h2>
+        <div>
+          <Chrono items={data} mode="VERTICAL_ALTERNATING" />
+        </div>
       </div>
+      <h1 className="app__skills-item">Future</h1>
+      <p className="app__skills-item">If your looking to hire me, I prefer hybrid / remote but willing to relocate to work onsite</p>
     </div>
   );
 };
